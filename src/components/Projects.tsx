@@ -14,6 +14,14 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: 'BDLearn - Bengali Learning Platform',
+    description: 'A comprehensive Bengali learning platform for students from class one to university level. Features interactive lessons, educational resources, and personalized learning paths.',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Node.js', 'MongoDB'],
+    image: '/bdlearn.png',
+    link: 'https://bdlearn.vercel.app/',
+    github: 'https://github.com/yourusername/bdlearn'
+  },
+  {
     title: 'BDGenAI - Learning Platform',
     description: 'A collaborative learning platform connecting students worldwide. Features include course creation, resource sharing, and progress tracking.',
     tech: ['Next.js', 'React', 'Tailwind CSS', 'Node.js'],
